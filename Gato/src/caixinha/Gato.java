@@ -2,14 +2,14 @@ package caixinha;
 
 public class Gato {
     int cr;
-    String name;
+    String nome;
     String raca;
     int idade;
     boolean male = true;
     Gato mother;
     
     public Gato(String g) {
-        this.name = g;
+        this.nome = g;
     }
 
     public void miar() {
