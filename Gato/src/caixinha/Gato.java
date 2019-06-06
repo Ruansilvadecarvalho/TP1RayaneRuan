@@ -5,17 +5,18 @@ public class Gato {
     String name;
     String raca;
     int idade;
-    boolean male;
-
+    boolean male = true;
+    Gato mother;
+    
     public Gato(String g) {
         this.name = g;
     }
 
     public void miar() {
         if (idade >= 2) {
-            System.out.println(" Meow! ");
+            System.out.printf("%s vai dizer Meow!\n", this.name);
         } else {
-            System.out.println(" miauh miauh miauh ");
+            System.out.printf("%s vai dizer Miauh Miauh Miauh!\n", this.name);
         }
     }
 }
