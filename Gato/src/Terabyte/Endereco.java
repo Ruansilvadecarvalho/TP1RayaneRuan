@@ -1,15 +1,15 @@
-
 package Terabyte;
 
 public class Endereco {
-   private String Complemento;
-   private int Numero_da_rua;
-   private String CEP;
-   private String Rua;
-   private String Bairro;
-   private String Pais;
-   private String Cidade;
-   private String Estado;
+
+    private String Complemento;
+    private int Numero_da_rua;
+    private String CEP;
+    private String Rua;
+    private String Bairro;
+    private String Pais;
+    private String Cidade;
+    private String Estado;
 
     /**
      * @return the Complemento
