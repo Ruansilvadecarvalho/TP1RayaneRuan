@@ -1,7 +1,7 @@
-
 package Terabyte;
 
 public class Cliente {
+
     private String Nome_completo;
     private String Data_de_nascimento;
     private String CPF;
@@ -11,7 +11,8 @@ public class Cliente {
     private String Email;
     private String Confirme_email;
     private int Senha;
-    private int Confirme_senha;   
+    private int Confirme_senha;
+    private Endereco Adress;
 
     /**
      * @return the Nome_completo
@@ -151,5 +152,19 @@ public class Cliente {
      */
     public void setConfirme_senha(int Confirme_senha) {
         this.Confirme_senha = Confirme_senha;
+    }
+
+    /**
+     * @return the Adress
+     */
+    public Endereco getAdress() {
+        return Adress;
+    }
+
+    /**
+     * @param Adress the Adress to set
+     */
+    public void setAdress(Endereco Adress) {
+        this.Adress = Adress;
     }
 }

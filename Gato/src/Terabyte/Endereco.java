@@ -2,7 +2,6 @@
 package Terabyte;
 
 public class Endereco {
-   private String Endereco;
    private String Complemento;
    private int Numero_da_rua;
    private String CEP;
@@ -11,20 +10,6 @@ public class Endereco {
    private String Pais;
    private String Cidade;
    private String Estado;
-
-    /**
-     * @return the Endereco
-     */
-    public String getEndereco() {
-        return Endereco;
-    }
-
-    /**
-     * @param Endereco the Endereco to set
-     */
-    public void setEndereco(String Endereco) {
-        this.Endereco = Endereco;
-    }
 
     /**
      * @return the Complemento
