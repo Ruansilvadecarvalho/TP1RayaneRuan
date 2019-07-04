@@ -14,9 +14,9 @@ public class Gato {
 
     public void miar() {
         if (idade >= 2) {
-            System.out.printf("%s vai dizer Meow!\n", this.name);
+            System.out.printf("%s vai dizer Meow!\n", this.nome);
         } else {
-            System.out.printf("%s vai dizer Miauh Miauh Miauh!\n", this.name);
+            System.out.printf("%s vai dizer Miauh Miauh Miauh!\n", this.nome);
         }
     }
 }
